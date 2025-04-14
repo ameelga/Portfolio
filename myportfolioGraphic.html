@@ -340,7 +340,7 @@ width: 381px;
                 top: calc(1024px + 150px); /* Aggiunta di 100px al valore di top */
 
 left: 17%;
-            
+    
             }
 
 
@@ -400,11 +400,17 @@ top: calc(1437px + 150px);
             }
 
 
-            .fotodx{
-                top: 1424px;
-                width: 69%;
-left: 14%;
-}
+     
+    .fotodx {
+        top: 1424px;
+        width: 69%; /* Cambiato da 10% a 69% per coerenza */
+        left: 14%;
+    }
+    
+    .fotodx img {
+        width: 100%; /* Assicura che le immagini rispettino la larghezza del contenitore */
+        height: auto; /* Mantiene le proporzioni */
+    }
 
 
 
@@ -414,6 +420,11 @@ width: 69%;
 left: 14%;
 
 }  
+
+.fotosx img {
+        width: 100%; /* Assicura che le immagini rispettino la larghezza del contenitore */
+        height: auto; /* Mantiene le proporzioni */
+    }
 
 .testosx{
     top:   calc(956px + 400px); 
